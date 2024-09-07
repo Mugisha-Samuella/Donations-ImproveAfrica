@@ -4,7 +4,7 @@ import { FaHeart } from "react-icons/fa6";
 import { FaHandHoldingHeart } from "react-icons/fa6";
 
 export default function Home() {
-  const totalRaised = 160000; 
+  const totalRaised = 209500; 
   const goalAmount = 1600000; 
 
   const progressPercentage = Math.min((totalRaised / goalAmount) * 100, 100);
