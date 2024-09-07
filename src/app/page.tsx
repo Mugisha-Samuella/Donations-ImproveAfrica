@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { FaHeart } from "react-icons/fa6";
 import { FaHandHoldingHeart } from "react-icons/fa6";
@@ -10,6 +11,11 @@ export default function Home() {
 
   return (
     <div className="h-screen flex flex-col justify-between bg-gray-100">
+      <Head>
+        <title>Support 40 Kids | ImproveAfrica</title> 
+        <link rel="icon" href="./favicon.ico" /> 
+      </Head>
+
       {/* Mobile Header */}
       <div className="flex flex-row p-3 gap-2 justify-center items-center">
         <FaHandHoldingHeart className="w-6 h-6 text-red-600" />
