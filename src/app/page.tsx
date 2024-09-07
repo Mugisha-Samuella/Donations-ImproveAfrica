@@ -38,7 +38,7 @@ export default function Home() {
               Let&apos;s Help 40 Kids Get to School!
             </h1>
             <p className="text-base text-gray-600 mb-4">
-              School starts this Monday, and 40 kindergarten students need your support. Each child&apos;s school fees are <strong>40,000 Rwf</strong>, and raising <strong>1,600,000 Rwf</strong> is just for one term. We don't want any child to drop out after one term, so your help is crucial!
+              School starts this Monday, and 40 kindergarten students need your support. Each child&apos;s school fees are <strong>40,000 Rwf</strong>, and raising <strong>1,600,000 Rwf</strong> is just for one term. We don&apos;t want any child to drop out after one term, so your help is crucial!
             </p>
 
             <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-3 rounded mb-4">
