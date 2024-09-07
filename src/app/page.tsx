@@ -3,10 +3,10 @@ import { FaHeart } from "react-icons/fa6";
 import { FaHandHoldingHeart } from "react-icons/fa6";
 
 export default function Home() {
-  const totalRaised = 10000; 
-  const goalAmount = 100000; 
+  const totalRaised = 160000; 
+  const goalAmount = 1600000; 
 
-  const progressPercentage = Math.min((totalRaised / goalAmount) * 100, 100); // Calculate progress as a percentage
+  const progressPercentage = Math.min((totalRaised / goalAmount) * 100, 100);
 
   return (
     <div className="h-screen flex flex-col justify-between bg-gray-100">
@@ -18,9 +18,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="flex flex-col items-center lg:flex-row justify-center w-full lg:w-3/4 mx-auto p-6 lg:p-8 space-y-6 lg:space-y-0">
-        {/* Combined Card */}
         <div className="flex flex-col lg:flex-row bg-white rounded-lg shadow-lg overflow-hidden w-full">
-          {/* Image Section */}
           <div className="lg:w-1/2">
             <Image
               src={"/Images/gallery.png"}
@@ -31,21 +29,16 @@ export default function Home() {
             />
           </div>
 
-          {/* Text Section */}
           <div className="p-6 lg:p-8 flex-1 flex flex-col justify-center">
-            {/* Desktop Header */}
             <div className="flex flex-row items-center gap-2 mb-4">
-              {/* <FaHandHoldingHeart className="w-8 h-8 text-red-600" /> */}
-              <h5 className="text-lg font-bold text-gray-700">
-                ImproveAfrica
-              </h5>
+              <h5 className="text-lg font-bold text-gray-700">ImproveAfrica</h5>
             </div>
 
             <h1 className="font-extrabold text-3xl lg:text-4xl text-gray-800 mb-4">
-              Help Make a Difference
+              Let’s Help 40 Kids Get to School!
             </h1>
             <p className="text-base text-gray-600 mb-4">
-              Your donation can provide essential aid and support to those in need. Join us in making a positive impact on our community.
+              School starts this Monday, and 40 kindergarten students need your support. Each child's school fees are <strong>40,000 Rwf</strong>, and raising <strong>1,600,000 Rwf</strong> is just for one term. We don't want any child to drop out after one term, so your help is crucial!
             </p>
 
             <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-3 rounded mb-4">
@@ -56,7 +49,7 @@ export default function Home() {
             </div>
 
             <p className="text-base text-gray-600 mb-4">
-              The school fees for one child are <strong>45,000 Rwf</strong>, but any contribution, starting at any amount, is greatly appreciated.
+              Your contributions can start from just <strong>100 Rwf</strong> and are greatly appreciated. Help ensure these kids don’t miss out on their education. Even if we don’t reach the full amount by Monday, your contributions can still make a difference after the school term begins.
             </p>
 
             {/* Progress Section */}
