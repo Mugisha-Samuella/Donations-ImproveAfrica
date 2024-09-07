@@ -46,14 +46,14 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ## Acknowledgements
 
-Next.js for providing the framework.
+Next.js for providing the framework. <br>
 ImproveAfrica for the inspiration and support in this initiative - https://improve-africa.vercel.app/
 
 ## Contact
 For any inquiries or feedback, feel free to reach out:
 
-Samuella Mugisha
-Email: itsmugishasamuella@gmail.com
+Samuella Mugisha <br>
+Email: itsmugishasamuella@gmail.com <br>
 LinkedIn: Mugisha Samuella
 
 
