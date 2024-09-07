@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Donations-ImproveAfrica
+
+## Overview
+
+Donations-ImproveAfrica is a project aimed at supporting 40 kindergarten students at Immanuel Vision School by raising funds to cover their school fees. Each child's school fees amount to **40,000 Rwf**, and our goal is to raise a total of **1,600,000 Rwf** for one term to ensure that no child drops out of school.
+
+## Project Structure
+
+The project is built using **Next.js** and includes a responsive layout designed to encourage donations through a friendly and engaging user interface.
+
+### Key Features
+
+- **Progress Tracker**: Displays the total amount raised and the goal amount.
+- **Donation Options**: Users can contribute any amount starting from **100 Rwf**.
+- **Responsive Design**: The application is mobile-friendly and adapts to different screen sizes.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/Mugisha-Samuella/Donations-ImproveAfrica.git
+2. **Navigate to the project directory:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   cd Donations-ImproveAfrica
+3. **Install the necessary dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+4. **Run the development server:**
 
-## Learn More
+   ```bash
+   npm run dev
+  
+5. **Open your browser and visit:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
-## Deploy on Vercel
+## Acknowledgements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js for providing the framework. <br>
+ImproveAfrica for the inspiration and support in this initiative - https://improve-africa.vercel.app/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+For any inquiries or feedback, feel free to reach out:
+
+Samuella Mugisha <br>
+Email: itsmugishasamuella@gmail.com <br>
+LinkedIn: Mugisha Samuella
+
+
+
+
